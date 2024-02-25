@@ -1,9 +1,16 @@
+import SignupDiv from "./SignupDiv"
 import XLogo from "./XLogo"
 
 const Signup = ()=>{
     return(
         <>
-        <XLogo/>
+        <div className="main-container">
+            <XLogo/>
+            <div className="signup-container">
+                <SignupDiv/>
+            </div>
+        </div>
+        
         </>
     )
 }

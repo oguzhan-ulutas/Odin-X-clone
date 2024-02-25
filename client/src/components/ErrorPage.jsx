@@ -1,8 +1,11 @@
+import { useContext } from "react";
 import { Link } from "react-router-dom";
+import { AppContext } from "./AppContext";
 
 
 
 const ErrorPage = () => {
+  const {errorMsg, setErrMsg} = useContext(AppContext)
   return (
     <div className="error">
         {errorMsg?
