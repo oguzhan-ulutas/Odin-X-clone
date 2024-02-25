@@ -1,14 +1,13 @@
-import { useState } from 'react'
-import { AppContext } from './AppContext'
 import './App.css'
-import { Router } from 'express'
 
+import { AppContext } from './components/AppContext'
+import Router from './components/Router'
 
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
-    <AppContext.Provider>
+    <AppContext.Provider value={{}} >
       <Router/>
     </AppContext.Provider>
   )
