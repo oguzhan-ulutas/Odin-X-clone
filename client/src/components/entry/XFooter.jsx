@@ -1,9 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
+import "./XFooter.css"
+
 function XFooter() {
   return (
-    <div>
+    <div className='footer'>
         <Link>About</Link>
         <Link>Download the X app</Link>
         <Link>Help Center</Link>
