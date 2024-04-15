@@ -10,3 +10,11 @@
     justify-content: center;
     align-items: center;
   }
+
+  .main-content > img {
+    flex: 1;
+  }
+
+  .signup-div {
+    flex: 2;
+  }

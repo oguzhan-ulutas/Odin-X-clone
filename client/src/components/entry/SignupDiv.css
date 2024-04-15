@@ -1,5 +1,5 @@
 fieldset.title {
-    border-top: 1px solid #aaa;
+    border-top: solid 1px rgba(219, 214, 214, 0.3);
     border-bottom: none;
     border-left: none;
     border-right: none;
@@ -7,8 +7,105 @@ fieldset.title {
     text-align: center;
     font-weight: 100;
     width: 100%;
+    width: 274px;
+    
   }
   
   fieldset.title legend {
     padding: 5px 10px;
+    
   }
+
+  .signup-div {
+    padding: 10px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .signup-div h1 {
+    font-size: 64px;
+  }
+
+  .signup-div h3 {
+    font-size: 31px;
+  }
+
+  .signup-div-middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 8px;
+  }
+
+  /* Select all buttons */
+  .signup-div-middle button {
+    width: 274px;
+    height: 38px;
+    border-radius: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    border:1px solid #dadce0;
+    font-size: 15px;
+    cursor: pointer;
+
+  }
+
+  button img {
+    flex-grow: 0;
+    width: 20px;
+  }
+
+   /* Google button */
+  .signup-div-middle > button:nth-child(1) > p {
+    font-weight: 400;
+  }
+
+   /* Apple button */
+.signup-div-middle > button:nth-child(2) > p {
+  font-weight: 900;
+}
+
+/* Create account button */
+.signup-div-middle > button:nth-child(4) {
+  background-color: rgb(29, 153, 237);
+  color: white;
+  width: 274px;
+  height: 38px;
+}
+
+.signup-div-middle > button:nth-child(5) {
+  background-color: orange;
+  color: white;
+}
+
+.info-p {
+  font-size: 11px;
+  margin: 0px;
+  width: 300px;
+  color: rgb(140, 140, 140);
+}
+
+span {
+  color: rgb(29, 155, 240);
+  
+}
+
+.sign-in button {
+  width: 274px;
+  height: 38px;
+  border-radius: 100px;
+  background-color: white;
+  border:1px solid #dadce0;
+  font-size: 15px;
+  cursor: pointer;
+  color: rgb(29, 153, 237);
+
+}
+
+
+
+
